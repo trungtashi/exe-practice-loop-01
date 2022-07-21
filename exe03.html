@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p id="fibo">
+
+</p>
+<script>
+      let  a = 0
+      let b = 1
+      let i = 3
+      let c =1
+      let text = a + " <br>" + b + "<br>"
+    while ( i <= 20)
+    { if (c == a + b){
+        text = text + c + "<br>"
+        a = b
+        b = c
+        c++
+        i++ }
+        else { c++
+    }
+
+    }
+      document.getElementById('fibo').innerHTML = text
+
+</script>
+
+</body>
+</html>
